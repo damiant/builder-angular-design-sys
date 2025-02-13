@@ -10,6 +10,7 @@ import { CUSTOM_COMPONENTS } from "../builder-registry";
   standalone: true,
   imports: [Content, CommonModule],
   template: `
+  <h1>Figma Imports</h1>
     <builder-content
       [model]="model"
       [content]="content"
