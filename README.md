@@ -1,32 +1,59 @@
-# Builder.io Angular example
+# BuilderAngularDesignSys
 
-This is an example of using Builder.io with Angular for dynamic page building. For an example with server side rendering using
-Angular Universal see [here](/examples/angular-universal)
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
 
-See the full Angular SDK source code and docs over [here](/packages/angular)
+## Development server
 
-## Running locally
+To start a local development server, run:
 
-### Development server
+```bash
+ng serve
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-### Code scaffolding
+## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-### Build
+```bash
+ng generate component component-name
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-### Running unit tests
+```bash
+ng generate --help
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Building
 
-### Running end-to-end tests
+To build the project run:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```bash
+ng build
+```
 
-### Further help
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-Questions, feedback? Let us know over in our [forum](https://forum.builder.io)!
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
